@@ -1,23 +1,16 @@
 <div id="top"></div>
 
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2017/08/07172624/170727_steganography-0.jpg" alt="Logo" width="80" height="80">
+    <img src="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2017/08/07172624/170727_steganography-0.jpg" alt="Logo" width="200" height="200">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Streaming stego</h3>
 
   <p align="center">
     An awesome README template to jumpstart your projects!
