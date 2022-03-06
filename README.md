@@ -89,16 +89,21 @@ This project has been completely coded using python.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To be able to deploy this project, please make sure to have python (at least 3.0) and pip3 in order to be able to install and execute all the code,
 
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+* Visit this link and install Python.
   ```sh
-  npm install npm@latest -g
+  https://www.python.org/downloads/
   ```
+
+* Visit this link and install Python.
+  ```sh
+  https://pip.pypa.io/en/stable/cli/pip_install/
+  ```
+
 
 ### Installation
 
