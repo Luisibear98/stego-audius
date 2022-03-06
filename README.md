@@ -61,14 +61,14 @@
 
 
 
-This is the code for the assignment of the class of APTs
+This is the code for the assignment of the class of APTs and the main Idea is to create a proof of concept of a streaming audio service with stego capabilities.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+It consist on:
+* Server: Streams the audio and process it in order to embed the secret information.
+* Client: Reads and process the audio to recover the hidden information.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+
+The embedding algorithm comes from this <a href="https://www.researchgate.net/publication/281940948_A_Wav-Audio_Steganography_Algorithm_Based_on_Amplitude_Modifying">paper</a> and ensures good audio quality and good hiding of information
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
