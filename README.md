@@ -84,7 +84,7 @@ To be able to deploy this project, please make sure to have python (at least 3.0
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* Visit this link and install Python.
+* Visit this link and install Python. IF YOU ARE ON WINDOWS INSTALL 3.9.X
   ```sh
   https://www.python.org/downloads/
   ```
@@ -96,6 +96,7 @@ This is an example of how to list things you need to use the software and how to
 
 ### IMPORTANT FOR WINDOWS
 
+THIS MAY WORK ON WINDOWS UNTIL PYTHON 3.9.X.
 To intall PYAUDIO please follow the following:
 * first step
   ```sh
@@ -107,7 +108,7 @@ To intall PYAUDIO please follow the following:
   pipwin install pyaudio
   ```
   
-  
+  Notice that any other os as Linux \ MacOs accepts 3.x.x
 
 ### Installation
 
