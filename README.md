@@ -7,23 +7,12 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2017/08/07172624/170727_steganography-0.jpg" alt="Logo" width="200" height="200">
+    <img src="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2017/08/07172624/170727_steganography-0.jpg" alt="Logo" width="400" height="200">
   </a>
 
   <h3 align="center">Streaming stego</h3>
 
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
+ 
 </div>
 
 
@@ -142,33 +131,12 @@ To make use of the code
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-
-
-
 <!-- CONTACT -->
 ## Contact
 
-Luis Ibáñez Lissen -  100363822@alumnos.uc3m.es
-Alejandro de la Cruz Alvarado - 100383497@alumnos.uc3m.es
-Leonel Jose Peña Gamboa - 100461544@alumnos.uc3m.es
+* Luis Ibáñez Lissen -  100363822@alumnos.uc3m.es
+* Alejandro de la Cruz Alvarado - 100383497@alumnos.uc3m.es
+* Leonel Jose Peña Gamboa - 100461544@alumnos.uc3m.es
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
