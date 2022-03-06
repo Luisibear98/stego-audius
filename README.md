@@ -97,6 +97,7 @@ This is an example of how to list things you need to use the software and how to
 ### IMPORTANT FOR WINDOWS
 
 THIS MAY WORK ON WINDOWS UNTIL PYTHON 3.9.X.
+
 To intall PYAUDIO please follow the following:
 * first step
   ```sh
