@@ -130,11 +130,11 @@ To make use of the code
 
 1. Runs the client.py
    ```sh
-  python3 client.py
+    python3 client.py
    ```
 2. Runs the server.py
    ```sh
-  python3 server.py
+    python3 server.py
    ```
 3. Choose the server mode on the prompt.
 
