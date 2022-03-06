@@ -107,7 +107,7 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+Please follow this intructions to install all code dependencies
 
 1. Clone the repo
    ```sh
@@ -126,9 +126,18 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+To make use of the code
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+1. Runs the client.py
+   ```sh
+  python3 client.py
+   ```
+2. Runs the server.py
+   ```sh
+  python3 server.py
+   ```
+3. Choose the server mode on the prompt.
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
