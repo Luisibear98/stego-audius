@@ -94,6 +94,20 @@ This is an example of how to list things you need to use the software and how to
   https://pip.pypa.io/en/stable/cli/pip_install/
   ```
 
+### IMPORTANT FOR WINDOWS
+
+To intall PYAUDIO please follow the following:
+* first step
+  ```sh
+  pip install pipwin
+  ```
+
+* Second step
+  ```sh
+  pipwin install pyaudio
+  ```
+  
+  
 
 ### Installation
 
