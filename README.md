@@ -11,7 +11,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2017/08/07172624/170727_steganography-0.jpg" alt="Logo" width="400" height="200">
+    <img src="https://miro.medium.com/max/1222/1*uAr0P6toRiMkpATWYOr5jg.png" alt="Logo" width="400" height="200">
   </a>
 
   <h3 align="center">Streaming stego</h3>
