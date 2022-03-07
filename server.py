@@ -202,14 +202,14 @@ if mode == "Fix text":
                 print_bye()
                 exit()
 
-# Procesamiento en tiempo real
+# Real time processing
 elif mode == "Streaming":
     #real time text sending
     audio = read_wav(filename)
     channel_1 = audio[0]    
     insert = []
-   
-    channel_1_splited = split_channel(channel_1,3)
+    
+    channel_1_splited = split_channel(channel_1,3) #Splitting audio
 
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         send_info = chr(0x02)
@@ -220,7 +220,7 @@ elif mode == "Streaming":
         position = 0
         sent = 0
         processing = 0
-        print("Sending flag...")
+        print("Sending flag...")    #Sending metadata to client
         metadata.append(2)
         communication_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM);
         communication_socket.connect((HOST, PORT+1))
@@ -233,19 +233,18 @@ elif mode == "Streaming":
             with conn:
                 
                 #envío del audio con texto
-                kthread = KeyboardThread(my_callback)
+                kthread = KeyboardThread(my_callback) #Monitoring user input
                 for position in range(len(channel_1_splited)):
              
-                    if flag and sent % 8 == 0:
+                    if flag and sent % 8 == 0:          #wait until 8 bits have been sent before
                         if not processing:
                             start = [1]
-                            send_package = pickle.dumps(start)
-                          
+                            send_package = pickle.dumps(start) #Sending synchronization flag
                             conn.sendall(send_package)
                             sleep(1)
                             processing = 1
             
-                        bina = binarize(send_info)
+                        bina = binarize(send_info)      #transforming user input to bits
                         insert =[]
                         bit_sent = 0
   
@@ -257,7 +256,7 @@ elif mode == "Streaming":
                        
                         while bit_sent < len(insert):
                           
-                            package,inserted= insert_on_real_time(insert[bit_sent],channel_1_splited[position],embding_key)
+                            package,inserted= insert_on_real_time(insert[bit_sent],channel_1_splited[position],embding_key) #Inserting stego
 
                             
                             if inserted:
@@ -273,7 +272,7 @@ elif mode == "Streaming":
                         processing = 0
                       
                     else:
-                        package = channel_1_splited[position]
+                        package = channel_1_splited[position] #Normal audio stream
                         send_package = pickle.dumps(package)
                         conn.sendall(send_package)
                         sent += 1
