@@ -14,7 +14,7 @@
     <img src="https://miro.medium.com/max/1222/1*uAr0P6toRiMkpATWYOr5jg.png" alt="Logo" width="400" height="200">
   </a>
 
-  <h3 align="center">Streaming stego</h3>
+  <h3 align="center">Stego-audius</h3>
 
  
 </div>
